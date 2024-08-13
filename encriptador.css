@@ -1,0 +1,134 @@
+
+* {
+  background: #0c0c0c;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.logo {
+  padding-top: 10px;
+  margin-left: 70px;
+  width: 2%;
+  
+}
+
+
+
+main {
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.text-area {
+  border: none;
+  color: #6bbc52;
+  margin-top: 90px;
+  text-transform: lowercase;
+}
+::placeholder {
+  color: #6bbc52;
+}
+.text-area:focus {
+  outline: none;
+
+}
+
+.mensaje {
+  background: #353232;
+  background-image: url("imag/encriptar.jpg");
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: #6bbc52;
+  margin-left: 98px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+  background-size: cover;
+}
+
+.mensaje:focus {
+  outline: none;
+  
+}
+
+.botones {
+  display: flex;
+  margin-top: 18px;
+}
+
+.btn-encriptar {
+  background-color: #0a0a0b;
+  border: 1px solid #6bbc52;
+  border-radius: 24px;
+  color: #6bbc52;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+}
+
+.btn-desencriptar {
+  background: #09090a;
+  border: 1px solid #6bbc52;
+  border-radius: 24px;
+  color: #6bbc52;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+}
+
+.btn-copiar {
+  border: 1px solid #6bbc52;
+  border-radius: 24px;
+  color: #6bbc52;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 128px;
+  margin-top: 402px;
+  position: fixed;
+  width: 328px;
+  flex-direction: column;
+}
+
+.informacion {
+  color: #6bbc52;
+  font-size: 18px;
+}
+
+
+/* Estilo para el footer */
+footer {
+  background-color: #353232;
+  padding: 20px 0; /* Espaciado superior e inferior */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.footer-content {
+  max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.footer-copyright {
+  font-size: 12px; /* Tamaño de fuente más pequeño */
+  color: #6bbc52;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-link {
+  font-size: 14px; /* Tamaño de fuente para los enlaces */
+  color: #6bbc52;
+  text-decoration: none;
+  margin-right: 20px; /* Espaciado entre los enlaces */
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Subraya los enlaces al pasar el cursor sobre ellos */
+}
